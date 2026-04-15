@@ -44,19 +44,22 @@ code, pre, .stCode {
     font-family: 'JetBrains Mono', monospace !important;
 }
 
+/* Force App Background to Dark */
+[data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+    background-color: #11111b !important;
+}
+
 /* Sidebar */
 [data-testid="stSidebar"] {
-    background: #0d0d14;
+    background-color: #0d0d14 !important;
     border-right: 1px solid #1e1e2e;
 }
 [data-testid="stSidebar"] * { color: #cdd6f4 !important; }
 
 /* Main background */
 .main .block-container {
-    background: #11111b;
     padding: 2rem 3rem;
 }
-body { background: #11111b; }
 
 /* Metric cards */
 [data-testid="stMetric"] {
@@ -99,16 +102,15 @@ body { background: #11111b; }
 /* Success / info / warning */
 .stAlert { border-radius: 10px; }
 
-/* Title */
+/* Title & Text Colors */
 h1 { color: #cba6f7 !important; font-weight: 800 !important; letter-spacing: -0.5px; }
 h2, h3 { color: #cdd6f4 !important; }
-p, li { color: #a6adc8; }
+p, li, span, div { color: #a6adc8; } /* Catch all standard text */
 
 /* Number input / select */
 [data-baseweb="input"] input, [data-baseweb="select"] { background: #1e1e2e !important; color: #cdd6f4 !important; }
 </style>
 """, unsafe_allow_html=True)
-
 # ────────────────────────────────────────────────────────────────────────────
 # Session state — shared ring
 # ────────────────────────────────────────────────────────────────────────────

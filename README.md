@@ -186,18 +186,3 @@ Running the O(log N) scaling experiment (m=6, 50 lookups each):
 
 Average hops ≈ log₂(N), confirming the O(log N) guarantee.
 
----
-
-## References
-
-- Stoica, I., Morris, R., Karger, D., Kaashoek, M. F., & Balakrishnan, H. (2001).  
-  **Chord: A scalable peer-to-peer lookup service for internet applications.**  
-  *ACM SIGCOMM Computer Communication Review*, 31(4), 149–160.
-- SimPy documentation: https://simpy.readthedocs.io
-- Streamlit documentation: https://docs.streamlit.io
-
----
-
-## License
-
-MIT — free to use and modify for academic purposes.
