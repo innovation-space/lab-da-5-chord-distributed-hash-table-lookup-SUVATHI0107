@@ -175,7 +175,7 @@ find_successor(key_id):
 
 Running the O(log N) scaling experiment (m=6, 50 lookups each):
 
-| N (nodes) | Avg Hops | log₂(N) |
+| N (nodes) | Avg Hops | log₂(N) | 
 |---|---|---|
 | 2 | 0.98 | 1.00 |
 | 4 | 1.54 | 2.00 |
